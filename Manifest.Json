@@ -1,0 +1,30 @@
+{
+" name ": " Profanity Filtering Software ",
+"Description" : "Base Level Extension",
+" Version": "1.0",
+"{", Manifest_version": 2,
+  "browser_action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  } "Service_worker" "backgroundh.js"
+}
+ 
+{
+  "name": "Profanity Filtering Software",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "hello.html",
+    "default_icon": "travisLibbypng"
+  },
+  "manifest_version": 2,
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens hello.html"
+    }
+  }
+}
