@@ -2,9 +2,9 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ steamclean ]
+    branches: [ Travislibby00 ]
   pull_request:
-    branches: [ steamclean ]
+    branches: [TravisLibby00 ]
 
 jobs:
   build:
